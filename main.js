@@ -48,3 +48,6 @@ function outputConsoleLog(message) {
     alert(message);
     console.log(message);
 }
+function changeCardColor(card, color) {
+    card.style.backgroundColor = color;
+}
