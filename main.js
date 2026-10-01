@@ -51,3 +51,8 @@ function outputConsoleLog(message) {
 function changeCardColor(card, color) {
     card.style.backgroundColor = color;
 }
+
+const mainTitle = document.querySelector('.main__title');
+mainTitle.addEventListener('mouseover', () => {
+  console.log('Выбери свой продукт');
+});
