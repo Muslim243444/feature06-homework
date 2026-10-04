@@ -54,5 +54,5 @@ function changeCardColor(card, color) {
 
 const mainTitle = document.querySelector('.main__title');
 mainTitle.addEventListener('mouseover', () => {
-  console.log('Выбери свой продукт');
+  console.log(mainTitle.textContent);
 });
