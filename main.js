@@ -48,3 +48,11 @@ function outputConsoleLog(message) {
     alert(message);
     console.log(message);
 }
+function changeCardColor(card, color) {
+    card.style.backgroundColor = color;
+}
+
+const mainTitle = document.querySelector('.main__title');
+mainTitle.addEventListener('mouseover', () => {
+  console.log(mainTitle.textContent);
+});
